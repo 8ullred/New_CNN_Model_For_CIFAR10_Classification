@@ -26,3 +26,7 @@ Upon completion of training and testing, the model achieved an accuracy of appro
 
 
 Feel free to explore the code and contribute to the improvement of the face mask detection model!
+
+<img width="532" alt="image" src="https://github.com/8ullred/New_CNN_Model_For_CIFAR10_Classification/assets/83183543/435c7cfd-624e-4538-9125-d4d767bae94e">
+
+<img width="582" alt="image" src="https://github.com/8ullred/New_CNN_Model_For_CIFAR10_Classification/assets/83183543/92eb0fcd-9c25-4114-a051-9ab8528e5352">

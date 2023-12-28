@@ -1,13 +1,28 @@
-This is my custom-coded model made for face mask detection.
+!!Face Mask Detection Model!!
 
-Datasets:
-To train this model, we originally used our own collection of images for training purposes, but we eventually switched over to the CIFAR-10 dataset due to it both being more easily accessible and many orders of magnitude larger. The CIFAR-10 dataset boasts 60,000 usable images for training - 50,000 images are dedicated to the actual training and 10,000 are for the tests.
+Overview:
 
-Structure of the CNN:
-This CNN model is coded by myself, and as such, utilizes a custom base for the model. It uses a varying combination of Conv2D, BatchNormalization, Activation, MaxPooling2D, Dropout, Flatten, and Dense layers for the model to properly process and pass correct decisions on images fed to it. 
+This repository contains a custom-coded model designed for face mask detection. The model is trained using a combination of our proprietary image dataset and the CIFAR-10 dataset.
 
-Training and Test Results:
-We used the CIFAR-10 dataset to train and test the model - after running it and letting it go on for 200 epochs, we got roughly ~80% for the validation accuracy, and about 0.56 for validation loss. 
 
-Accuracy of the model:
-After all the above was done and tested, the model had roughly ~80% accuracy and 0.60 loss. The model is continuously being improved.
+Datasets
+
+Initially, our in-house image collection was used for training, but later transitioned to the CIFAR-10 dataset for its accessibility and extensive size. The CIFAR-10 dataset comprises of over 60,000 images, with 50,000 allocated for training and 10,000 for testing.
+
+
+Model Architecture
+
+The Convolutional Neural Network (CNN) is implemented from scratch, featuring a custom base. The architecture incorporates various layers such as Conv2D, BatchNormalization, Activation, MaxPooling2D, Dropout, Flatten, and Dense layers. This combination allows the model to effectively process images and make accurate predictions.
+
+
+Training and Test Results
+
+The model is trained and tested using both our in-house image collection and the CIFAR-10 dataset. After 200 epochs, the validation accuracy reached approximately 80%, with a validation loss of around 0.56.
+
+
+Model Performance
+
+Upon completion of training and testing, the model achieved an accuracy of approximately 80% and a loss of 0.60. Continuous efforts are being made to enhance the model's performance.
+
+
+Feel free to explore the code and contribute to the improvement of the face mask detection model!
